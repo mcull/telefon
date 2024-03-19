@@ -1,0 +1,71 @@
+{
+  "title": "Simplon Pass",
+  "artist": "John Singer Sargent",
+  "year": "1911",
+  "height": "71.8",
+  "width": "92.6",
+  "medium": "oil on canvas",
+  "style": "",
+  "generations": [
+    {
+      "file": "simplon_pass_2014.79.31.jpg",
+      "description": {
+        "text": "From a low vantage point, we look up a steep, rocky mountainside at a towering mountain peak in the distance in this nearly square landscape painting. Painted with tones of cobalt and topaz blue, caramel and clay brown, mauve pink, lavender purple, ivory, and cream white, the rocks and mountain nearly fill this composition against a deep, crystal-blue sky dotted with a few white puffy clouds. Water trickles along the rocky ground into a white waterfall near the lower left corner. Vibrant green moss grows on some of the smaller rocks that form a diagonal line down to the lower right corner. Larger boulders are painted with denim blue and harvest yellow beyond the smaller rocks. The rocky landscape slopes dramatically up into the distance, where it meets the sheer cliff face of a back-lit monolith that nearly touches the top edge of the canvas. Brushstrokes are visible throughout, especially along the center for the middle distance. Light pours over the scene from the left, but some of the middle ground is cast into shadow, perhaps by unseen ridges.",
+        "audio": {
+          "file": "images/simlon_pass_sargent/simplon_pass_2014.79.31.jpg.mp3",
+          "voice": "shimmer"
+        }
+      }
+    },
+    {
+      "file": "g1_simplon_pass_2014.79.31.jpg",
+      "description": {
+        "text": "The image shows a vibrant and dramatic landscape painting. It depicts a river flowing through a canyon with steep, towering cliffs on either side. The rocks and cliffs exhibit an array of colors, ranging from deep reds, browns, and soft blues to purples and pinks, creating a visually striking scene. The river cascades over rocks, forming small waterfalls that contribute to a sense of movement within the painting. On either side of the river, some vegetation can be seen clinging to the rocky terrain, adding spots of green to the composition. The background features additional mountainous formations in the distance, enveloped by a bright blue sky scattered with fluffy clouds. The light appears to be coming from the left, casting shadows and creating contrast that enhances the three-dimensional effect of the painting. Overall, the image is a fantastical representation of a natural scene, designed to evoke awe and wonder through its heightened colors and dramatic geography.",
+        "audio": {
+          "file": "images/simlon_pass_sargent/g1_simplon_pass_2014.79.31.jpg.mp3",
+          "voice": "echo"
+        }
+      }
+    },
+    {
+      "file": "g2_simplon_pass_2014.79.31.jpg",
+      "description": {
+        "text": "The image appears to be a painting of a dramatic mountain landscape. A vibrant, cascading stream flows through the center, surrounded by large colorful rocks and boulders. Lush green vegetation is evident around the water. Towering steep cliffs and peaks rise dramatically into the sky, indicating the scene may be set in a high alpine environment. The sky is relatively clear with a few clouds, suggesting a serene and bright day. The painting is done in a realistic style with a strong attention to detail, particularly in the rendering of the rocks, water, and mountains, giving a sense of depth and natural beauty.",
+        "audio": {
+          "file": "images/simlon_pass_sargent/g2_simplon_pass_2014.79.31.jpg.mp3",
+          "voice": "fable"
+        }
+      }
+    },
+    {
+      "file": "g3_simplon_pass_2014.79.31.jpg",
+      "description": {
+        "text": "This image is a vibrant painting of a picturesque mountainous landscape. It features steep, majestic cliffs and a series of rugged peaks under a sky with fluffy clouds. A cascading waterfall cuts through the terrain, surrounded by large, colorful boulders and patches of greenery with what appear to be wildflowers providing splashes of purple and red within the scene. The vegetation varies from sparsely scattered trees on the rocky slopes to lush, dense foliage around the water. The light seems to be hitting the scene from the left, casting dynamic shadows and highlighting the textures of the rocks and flora. Overall, the artwork exhibits a beautifully composed natural vista with a mix of serene and dramatic elements.",
+        "audio": {
+          "file": "images/simlon_pass_sargent/g3_simplon_pass_2014.79.31.jpg.mp3",
+          "voice": "alloy"
+        }
+      }
+    },
+    {
+      "file": "g4_simplon_pass_2014.79.31.jpg",
+      "description": {
+        "text": "This is an image of a painting depicting a majestic natural landscape. The scene is composed of several prominent elements:\n\n- Towering vertical cliffs: The cliffs are rendered with contrasting light and shadow, creating a dramatic and rugged appearance.\n- Waterfall and stream: In the foreground, there's a cascading waterfall that flows into a stream, which meanders through a rocky bed filled with colorful stones.\n- Vegetation: Sparse greenery, which appears to be pine trees or similar conifers, is scattered at the base of the cliffs and along the stream.\n- Sky: A clear blue sky punctuated by fluffy white clouds makes up the background, contributing to the overall serenity of the scene.\n- Light effects: The play of light across the scene, particularly on the cliff faces and clouds, is vividly depicted, suggesting a specific time of day when sunlight is casting sharp contrasts.\n\nThe style of the painting is reminiscent of the Hudson River School, an American art movement known for its romantic portrayal of the American wilderness in the 19th century.",
+        "audio": {
+          "file": "images/simlon_pass_sargent/g4_simplon_pass_2014.79.31.jpg.mp3",
+          "voice": "onyx"
+        }
+      }
+    },
+    {
+      "file": "g5_simplon_pass_2014.79.31.jpg",
+      "description": {
+        "text": "This is an image of a stunningly detailed landscape painting. It depicts a mountainous scene with a river cutting through rocky terrain. The mountains are towering, with near-vertical cliffs and delineated stratifications that suggest geological layering. There are several waterfalls cascading down these cliffs, contributing to the river in the foreground. Sunlight filters through the scene, illuminating parts of the cliffs and hills, creating a contrast of light and shadow that adds to the dramatic effect of the composition. The sky above features a mix of light and dark clouds, which along with the skillful rendering of light, gives the scene a sense of depth and realism. The attention to detail in the textures of the rocks, the vegetation clinging to the cliff sides, and the dynamic flow of the water is meticulous, making this painting visually rich and engaging.",
+        "audio": {
+          "file": "images/simlon_pass_sargent/g5_simplon_pass_2014.79.31.jpg.mp3",
+          "voice": "fable"
+        }
+      }
+    }
+  ]
+}

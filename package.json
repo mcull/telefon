@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.4.5",
+    "filenamify": "^6.0.0",
+    "fs": "^0.0.1-security",
+    "image-downloader": "^4.3.0",
+    "image-to-base64": "^2.2.0",
+    "node-base64-image": "^2.0.6",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.28.4",
+    "path": "^0.12.7",
+    "requests": "^0.3.0",
+    "url": "^0.11.3"
+  }
+}

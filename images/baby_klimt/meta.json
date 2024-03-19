@@ -1,0 +1,15 @@
+{ "paintings" : [
+    { 
+        "title": "Prometheus Making Man and Animating Him with Fire from Heaven",
+        "artist": "Robert de Baudous",
+        "year": "2003",
+        "height": "17.5",
+        "width":"25.1",
+        "generations": [
+            { 
+                "image": "prometheus_making_man_and_animating_him_with_fire_from_heaven_2003.143.1.jpg",
+                "description": ""
+            }
+        ]   
+    }
+]}

@@ -1,0 +1,82 @@
+{
+  "title": "Baby (Cradle)",
+  "artist": "Gustav Klimt",
+  "year": "1917",
+  "height": "110",
+  "width": "110",
+  "medium": "oil on canvas",
+  "style": "",
+  "nationalGalleryOfArtUrl": "https://www.nga.gov/collection/art-object-page.128988.html",
+  "generations": [
+    {
+      "file": "baby_(cradle)_1978.41.1.jpg",
+      "description": {
+        "text": "A baby nestles in a mass of frilly white fabric atop a colorful patchwork, perhaps a pile of quilts, against a sage and spring-green background in this square painting. The baby’s face and right hand peeks out from the mountain of fabric at the top center of the composition. The infant has ash-white skin with pink cheeks and lips, and looks down toward us with large dark eyes. The pile of fabric creates a mosaic-like mix of pattern and color with vibrant royal and baby blue, sage green, turquoise, butter yellow, and shell and salmon pink. Some patterns are outlined in black while brushstrokes swirl together in other areas. The background is mottled with cool mint and asparagus-green strokes against pale beige.",
+        "audio": {
+          "file": "images/baby_klimt/baby_(cradle)_1978.41.1.jpg.mp3",
+          "voice": "alloy"
+        }
+      }
+    },
+    {
+      "file": "g2_g1_baby_(cradle)_1978.41.1.jpg",
+      "description": {
+        "text": "This image features a stylized representation of a young child resting their head on their folded arms, seemingly lying down on a colorful quilt with a patchwork design. The child appears to be of preschool age, roughly between 3 and 5 years old, based on their facial features and size. The artwork is vibrantly colored and has a texture that almost makes it look like it was painted or made with pastels. The emphasis on vibrant colors and a warm palette gives the image a cozy and inviting feel.",
+        "audio": {
+          "file": "images/baby_klimt/skip5explicit/g2_g1_baby_(cradle)_1978.41.1.jpg.mp3",
+          "voice": "alloy"
+        }
+      }
+    },
+    {
+      "file": "g2_g2_g1_baby_(cradle)_1978.41.1.jpg",
+      "description": {
+        "text": "This image features an artistic depiction of a young child, who appears to be between 4-7 years of age, resting their head on folded arms. The style of the image is reminiscent of mosaic art with vibrant colors and elaborate patterns. The artwork gives a warm and textured impression, with a play of light that suggests a peaceful, contemplative mood. The child's expression is pensive or daydreaming, adding to the serene atmosphere of the piece.",
+        "audio": {
+          "file": "images/baby_klimt/skip5explicit/g2_g2_g1_baby_(cradle)_1978.41.1.jpg.mp3",
+          "voice": "echo"
+        }
+      }
+    },
+    {
+      "file": "g3_g2_g1_baby_(cradle)_1978.41.1.jpg",
+      "description": {
+        "text": "This image features a colorful and detailed illustration of a young child sleeping. The child appears to be in peaceful slumber, resting their head on their hands. They are covered with a vibrant, patterned blanket that is richly textured, reminiscent of the intricate designs found in Gustav Klimt's work. The patterns are composed of various shapes, swirls, and concentric circles, creating a patchwork effect. The age of the depicted child is hard to determine precisely due to the artistic nature of the image, but they might be guessed to be between 4 and 6 years old based on their appearance. The overall effect of the image is one of tranquility and warmth, with a strong emphasis on rich colors and detailed patterns.",
+        "audio": {
+          "file": "images/baby_klimt/skip5explicit/g3_g2_g1_baby_(cradle)_1978.41.1.jpg.mp3",
+          "voice": "fable"
+        }
+      }
+    },
+    {
+      "file": "g4_g2_g1_baby_(cradle)_1978.41.1.jpg",
+      "description": {
+        "text": "This image appears to depict an artwork featuring a young boy resting his head on his arms. The boy looks to be about 6 to 9 years old based on his facial features. The art style is quite detailed and vibrant, with a rich tapestry of colors and patterns that resemble quilted fabric in the background and even on the boy's clothes, giving the artwork a textured and almost three-dimensional appearance. The boy's expression is contemplative and serene, which along with the warm colors provides a comforting and intimate atmosphere.",
+        "audio": {
+          "file": "images/baby_klimt/skip5explicit/g4_g2_g1_baby_(cradle)_1978.41.1.jpg.mp3",
+          "voice": "nova"
+        }
+      }
+    },
+    {
+      "file": "g5_g2_g1_baby_(cradle)_1978.41.1.jpg",
+      "description": {
+        "text": "The image depicts an artwork that resembles a mosaic style, featuring a young child sleeping. The colorful tiles form patterns that contour and give shape to the figure and surroundings. The sleeping child appears serene and is resting their head on their arms. The use of vibrant colors and the stained-glass or mosaic-like effect adds a dreamy and artistic quality to the image. The child in the artwork appears to be around 3 to 7 years of age based on the facial features and size. However, precise age determination is difficult because it's an artistic rendering and not an actual photograph of a person.",
+        "audio": {
+          "file": "images/baby_klimt/skip5explicit/g5_g2_g1_baby_(cradle)_1978.41.1.jpg.mp3",
+          "voice": "nova"
+        }
+      }
+    },
+    {
+      "file": "g6_g2_g1_baby_(cradle)_1978.41.1.jpg",
+      "description": {
+        "text": "The image features an art style reminiscent of Gustav Klimt's, known for his ornamental patterns and rich colors. It depicts a young, possibly preadolescent child sleeping. The child's age appears to be around 8 to 12 years old. The patterns and colors are highly decorative and geometric, offered in a mosaic-like form that covers the entire composition, including the child and the background.",
+        "audio": {
+          "file": "images/baby_klimt/skip5explicit/g6_g2_g1_baby_(cradle)_1978.41.1.jpg.mp3",
+          "voice": "nova"
+        }
+      }
+    }
+  ]
+}

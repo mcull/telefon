@@ -1,0 +1,152 @@
+const imageOptions = [
+    {
+        url: "https://www.nga.gov/collection/art-object-page.95659.html",
+        artist: "Hendrick Goltzius",
+        style: "Mannerism",
+        title: "The Fall of Man, 1616",
+        description: `The image depicts a fantastical scene heavily inspired by the Garden of Eden narrative. In the center, there are two human figures resembling classical representations of Adam and Eve, reclining under a tree. A serpent wraps around the bough of the tree, which is laden with apples, suggesting the temptation scene from the Biblical story. Various animals populate the scene, including a bison to the left, an antelope, and even a mythological-looking creature that blends characteristics of different animals, such as an antelope and a goat. In the foreground, two cats rest near an assortment of fruits. A human skull rests amidst the foliage at the bottom of the image, possibly symbolizing mortality or the consequences of the fall of man. The background features a lush landscape with trees, a river, and mountains under a sunset or sunrise sky. Birds are flying in the sky, and there's an idyllic atmosphere to the scene despite the presence of the skull. This image blends elements of nature with allegorical and mythological implications.`,
+        height: 104.5,
+        width: 138.4
+    },
+    {
+        url: "https://www.nga.gov/collection/art-object-page.95659.html",
+        artist: "Hendrick Goltzius",
+        style: "GenAI",
+        title: "The Fall of the Fall of the Fall of the Fall of the Fall of the Fall of the Fall of The Fall of Man, 2024",
+        description: `This image is a classic painting depicting two nude figures who are suggesting the biblical characters Adam and Eve from the Christian creation narrative. The two individuals are in a garden setting, which can be inferred as the Garden of Eden, and they are engaging intimately with one another with eye contact and physical touch. The man appears to be holding a fruit, often interpreted as the forbidden fruit, and offering it to the woman. In the foreground, a cat-like animal is lying beside the figures, and in the background, we see more animals, such as a goat and another darker creature, which might symbolize the presence of other living creatures in the Garden of Eden. The setting includes trees, bushes, and a distant landscape that contributes to the serene and idyllic atmosphere typically associated with depictions of Eden. The painting style, the finesse in rendering human anatomy, and attention to detail reflect the techniques of classical European art.`,
+        height: 1024,
+        width: 1792
+    },  
+    {
+        url: "/images/The Fall of Man, 2024_Dall-e 3_2024-03-10T00!56!51-08!00.png",
+        artist: "Dall-e 3",
+        style: "GenAI",
+        title: "The Fall of Man, g2",
+        description: `This image depicts a painting of a lush and vibrant paradise scene. At first glance, it appears to be inspired by the biblical Garden of Eden. In the center, there are two figures that resemble Adam and Eve, with Eve reaching for an apple while conversing with Adam. Various animals populate the scene, including deer, antelope, cats, and birds, among others. Some animals are in the trees, such as snakes and a curious goat, emphasizing a sense of harmony between species. The rivers and meadows in the background create a sense of depth and tranquility. The presence of a skull and a sleeping child at the bottom adds a layer of symbolism, possibly alluding to the themes of life, death, and innocence. The meticulous detail in the flora and fauna, the serene landscape, and the classical composition are indicative of traditional Western art styles. This artistic portrayal evokes themes of nature's abundance, the interconnectedness of life forms, and perhaps the consequences of human actions within a paradisiacal context`,
+        height: 1024,
+        width: 1792
+    },
+    {
+        url: "/images/The Fall of The Fall of Man, 2024_Dall-e 3_2024-03-10T01!06!03-08!00.png",
+        artist: "Dall-e 3",
+        style: "GenAI",
+        title: "The Fall of Man, g3",
+        description: `The image depicts an idyllic and lush landscape filled with a rich variety of wildlife and trees bearing fruits. The scene is reminiscent of the Garden of Eden narrative, with figures that are likely to represent Adam and Eve. On the left, a man stands at the base of a large tree with a woman positioned above him, reaching out to pluck a fruit, which is traditionally interpreted as an apple. This act symbolizes the biblical story of the Fall of Man, where Eve takes fruit from the Tree of Knowledge and shares it with Adam. In the foreground and throughout the landscape, there are various animals in peaceful coexistence, including deer, sheep, rabbits, birds, and even a dog resting near the bottom right corner. The center of the painting reveals a tranquil river that flows into the distance, flanked by verdant hills and mountains, adding to the serenity and perfection of the setting. The overall composition of the image is rich in color and meticulous detail, illustrating a scene of harmony before the introduction of sin into the world, according to the biblical narrative.`,
+        height: 1024,
+        width: 1792
+    },
+    {
+        url: "/images/The Fall of Fall of The Fall of Man, 2024_Dall-e 3_2024-03-10T01!09!54-08!00.png",
+        artist: "Dall-e 3",
+        style: "GenAI",
+        title: "The Fall of Man, g4",
+        description: `You've shared an image of an idyllic painting that depicts a pastoral scene. The painting is rich in detail and features a variety of animals and humans in harmony with nature, which is a common theme in many classical and romantic artworks. The harmony portrayed often represents a utopian world or the Garden of Eden, exemplified by the peace and tranquility between all creatures and elements within the scene. In the center, two large trees dominate the landscape, with various types of fruit and people interacting around and in them. Surrounding these central elements, you can observe: A diverse range of animals including deer, lions, cows, sheep, and birds, living peacefully alongside each other; People in historical or classical attire that could suggest a setting from antiquity or an imagined past; In the foreground, an abundant display of fruits and vegetables, suggesting fertility and plenty; Various landscapes in the background with mountains, rivers, forests, and a calm lake, which contribute to the serene atmosphere; Scenes of human activity, such as a person in a rowboat on the water, people conversing, and a woman holding a child. The overall composition creates a sense of balance and harmony, inviting viewers to contemplate the beauty and serenity of the natural world and how humans might exist within it. The painting could be interpreted in several ways, depending on the context, the artist's intentions, and viewers' perspectives.`,
+        height: 1024,
+        width: 1792
+    },
+    {
+        url: "/images/The Fall of the Fall of the Fall of The Fall of Man, 2024_Dall-e 3_2024-03-10T01!15!35-08!00.png",
+        artist: "Dall-e 3",
+        style: "GenAI",
+        title: "The Fall of Man, g5",
+        description: `This image depicts a lush and vivid landscape filled with a variety of elements. It appears to be a painting that falls within the Western art tradition, packed with detail and allegorical content. The scene is set in a bucolic paradise where humans and animals coexist peacefully. 'Starting from the foreground, there are groups of people engaged in serene activities such as conversation, contemplation, and enjoyment of the surrounding nature. These individuals are dressed in classical or biblical-style garments, which indicates that the image may have a religious or mythological theme. Animals of various species, including lions, deer, horses, and sheep, are interspersed harmoniously throughout the scene. In one part of the painting, it looks like a child is interacting with a lamb while nearby an adult lion peacefully lies down with them. This could be a representation of the Biblical "peaceable kingdom," where predators and prey live together without violence, symbolizing a paradisiacal or utopian vision. The landscape includes lush trees, calm bodies of water with boats, and mountains in the background. The presence of fruit, flowers, and birds throughout the scene adds to the painting's idyllic and abundant atmosphere. Birds are depicted mid-flight, and the sky holds a few clouds, punctuating an otherwise clear blue backdrop. It's also notable that the painting's perspective draws the eye into the distance towards the mountain range, suggesting depth and a vast, Eden-like setting.`,
+        height: 1024,
+        width: 1792
+    },
+    {
+        url: "/images/The Fall of the Fall of the Fall of the Fall of The Fall of Man, 2024_Dall-e 3_2024-03-10T01!20!.png",
+        artist: "Dall-e 3",
+        style: "GenAI",
+        title: "The Fall of Man, g6",
+        description: `This is an image of a painting depicting a pastoral and idyllic scene that appears to be influenced by the concept of the Garden of Eden or some form of utopia. The scene is rich with diverse forms of flora and fauna. There are numerous animals peacefully coexisting, including lions, sheep, deer, leopards, cattle, and birds. The landscape features luscious trees, mountains in the distance, and a peaceful river meandering through the valley. There are also several human figures throughout the painting that are engaged in different activities such as resting, conversing, riding horses, and boating. Notably, no one seems engaged in laborious work; rather, the humans are at leisure, which accentuates the sense of harmony and tranquility. Fruit is arranged prominently in the foreground, complemented by flowers and verdure. The sky is mostly clear with a few clouds, and birds are in flight, adding to the sense of serenity and untouched nature. The style of painting, the arrangement of figures, and the attention to detail suggest that this could be a work from the Renaissance or Baroque period, aiming to depict an idealized version of nature and human existence.`,
+        height: 1024,
+        width: 1792
+    },
+    {
+        url: "/images/The Fall of the Fall of the Fall of the Fall of the Fall of The Fall of Man, 2024_Dall-e 3_2024-.png",
+        artist: "Dall-e 3",
+        style: "GenAI",
+        title: "The Fall of Man, g7",
+        description: `This image depicts a lush and idyllic landscape filled with an abundance of flora and fauna. It is a fine example of a classical pastoral scene. The foreground displays a variety of animals that include sheep, lions, and leopards living in harmony alongside humans. In addition to the animals, there are groups of people who appear peaceful and at rest, dressed in colorful robes, which gives the scene a timeless or mythological feel. Fruit and flowers are spread out on the ground, adding to the sense of abundance and fertility. In the middle ground, we can see a river meandering through the valley, with small boats and more groups of animals sprinkled throughout the verdant landscape. The background consists of majestic, high mountains that tower over the scene, providing a grand and serene backdrop to the tranquil life in the foreground. Flying above the valley are several birds, hinting at the freedom and natural beauty of the area. Overall, the scene is likely designed to evoke an Edenic paradise, where nature and humanity exist in a peaceful, unspoiled state.`,
+        height: 1024,
+        width: 1792
+    },
+    {
+        url: "/images/The Fall of the Fall of the Fall of the Fall of the Fall of The Fall of Man, 2024_Dall-e 3_2024-.png",
+        artist: "Dall-e 3",
+        style: "GenAI",
+        title: "The Fall of Man, g8",
+        description: `This image depicts a serene and vibrant scene that appears to be an artistic representation of an idyllic landscape similar to the concept of paradise or the Garden of Eden. Here are some elements observed in the picture: 1. Human Figures: The image contains multiple people dressed in colorful, ancient-looking robes. They are engaged in various activities like sitting, standing, conversing, or handling fruits, and are positioned throughout the landscape; 2. Animals: A wide variety of animals are peacefully coexisting in this scene. They include sheep, goats, leopards, and other creatures both on land and in the water; 3. Landscape: The backdrop consists of a picturesque landscape with large, towering mountains, lush greenery, blooming flowers, and trees. A river meanders through the valley, enhancing the tranquil setting; 4. Flora: There is an abundance of plant life, featuring colorful flowers, fruit trees, and green shrubs; 5. Fruit and Foliage: The foreground prominently displays an assortment of fruits such as apples, grapes, pomegranates, and berries -- symbolizing abundance and fertility; 6. Water Activities: People are depicted in boats, enjoying the serene waterways that guide through the landscape; 7. Birds: A flock of birds is seen flying in the sky, adding to the sense of freedom and tranquility. The overall feel of the image is harmonious and utopian, likely intended to evoke a sense of peace, bounty, and coexistence between humans, animals, and nature.`,
+        height: 1024,
+        width: 1792
+    },
+    {
+        url: "/images/The Fall of the Fall of the Fall of the Fall of the Fall of the Fall of The Fall of Man, 2024_Da.png",
+        artist: "Dall-e 3",
+        style: "GenAI",
+        title: "The Fall of Man, g9",
+        description: `This image depicts a vibrant and colorful landscape bustling with activity. At the first glance, it seems to illustrate a sort of utopian scenery where people and animals coexist peacefully in a lush environment. Starting from the foreground, you can see groups of people engaged in various activities, such as gathering fruits, tending to animals, boating on a river, and enjoying the company of one another in a tranquil setting. The flora is rich and diverse, presenting an abundance of flowering plants, fruit trees, and verdant greenery. Moving to the midground, the river meanders through the valley, with more people and animals along its banks, including elephants and flocks of sheep. The scenery includes trees and plants bearing fruits and flowers, contributing to the feeling of abundance. In the background are picturesque mountains and a soft, glowing sky that might suggest either sunrise or sunset, adding to the idyllic quality of the scene. Birds are flying in the sky, reinforcing the sense of harmony with nature. The style of the artwork has a surreal, almost fantasy-like quality, inviting the viewer to imagine a world where nature's bounty is unlimited and all creatures share the land in a peaceful coexistence. The intricate details and vibrant colors make it a visually engaging piece with many elements to discover upon closer examination.`,
+        height: 1024,
+        width: 1792
+    },      
+
+       
+
+    {
+        url: "https://www.nga.gov/collection/art-object-page.50662.html",
+        artist: "Rogier van der Weyden",
+        style: "Northern Renaissance",
+        title: "Saint George and the Dragon",
+        description: `A man wearing armor and riding a rearing gray horse pins a winged, reptile-like dragon to the ground using a long lance at the center of this vertical painting. A woman kneels beyond the man and dragon to our left, and mountains and a city lining a body of water stretch into the deep distance. The man's gleaming silver armor covers his whole body except his pale peach face, his brown hair, and his feet. Two long strips of burgundy-red material unfurl from under his arms to flutter behind him like banners. A white shield with a red cross is propped on his upper left arm, and he holds the lance with his right hand high over his head. The lance spans nearly the whole composition, creating a diagonal from near the top edge to the lower right corner, where it almost pierces the back of the dragon's neck. The olive-green dragon has a royal-blue stripe down its back and tail, and it opens its beak-like mouth and sticks out its long, forked tongue. Skulls and bones are scattered on the ground around the dragon. The woman to our left has pale pink skin and her blond hair is bound up and covered with a translucent veil. Her long, high-necked dress is patterned with blue and gold, and red fringe or fabric drapes down from the underside of the sleeves. Buildings cluster at the top of a projecting ridge above the woman in the background, and more buildings line the edge of a body of water below. Ships with unfurled sails pass by blue mountains in the distance. The horizon line comes three-quarters of the way up the panel and the blue sky is dotted with clouds.`,
+        height: 14,
+        width: 10
+    },
+    {
+        url: "https://www.nga.gov/collection/art-object-page.66422.html",
+        artist: "René Magritte",
+        style: "Surrealism",
+        title: "The Blank Signature",
+        description: `A woman wearing a mauve-pink dress rides a horse through a wooded landscape with tall, thin, pole-like trees in this vertical painting. However, the bodies of the horse and rider are shown in front of some of the trees and disappear behind others, confusing the eye. The woman has pale skin and wears a brimless cap the same color as her dress over blond hair. She rides erect, holding the reins to the reddish bay-brown horse, which walks with the back left and front right hooves raised. The tree trunks are painted with sage and forest-green vertical dashes against moss green. The leafy canopies are painted with dabs of grass green. The forest in the background is indicated with short strokes of spring, sage, and mint green. The grass below is created with dashes of emerald green and coffee brown against a golden-tan background. Because of the way the horse and rider are unpredictably covered by trees, our eye constantly shifts back and forth, trying to figure out if the rider is close to us or set farther back in the forest.`,
+        height: 83,
+        width: 65
+    },
+    {
+        url: "https://www.nga.gov/collection/art-object-page.142008.html",
+        artist: "Giuseppe Arcimboldo",
+        style: "Mannerism",
+        title: "Four Seasons in One Head",
+        description: `In this vertical painting, a tree trunk, branches, plants, fruit, and flowers are arranged to create the head, neck, and chest of an old person, like a portrait. The face and shoulders are angled to our left against a black background. The ash-brown tree trunk is the head with stumps to represent the long, bulbous nose, protruding chin, and ear. The eyes and mouth are sunken in deep shadow. Smaller bumps and the rough texture of the bark of the skin resembles warts or other imperfections. Flax-yellow moss or fungi grows on the chin and head, creating the impression of short hair. Branches grow up from the top of the head like antlers or a tall crown. On our left, green and purple grapes sit among the branches and stumps on the head while red apples and pears sit on our right. Ivy grows up on branch behind the apples. Two red cherries dangle from the small stub of the ear we can see. Pale pink, red, and white flowers on the chest make a garment. Sheaves of wheat hang down from branches protruding from the neck over the flowers. The artist signed the painting with black letters where bark has peeled away from a branch to our upper right, "ARCIMBOLDUS F."`,
+        height: 83,
+        width: 65
+    },
+    {
+        url: "https://www.nga.gov/collection/art-object-page.91222.html",
+        medium: "oil on canvas",
+        style: "Impressionism",
+        artist: "Edgar Degas",
+        title: "Horses in a Meadow",
+        description: `Two horses, one dark brown and one cream white, stand together to our right against a landscape with rolling, sage-green hills and a river or canal in this horizontal painting. Near us, facing our right in profile, the brown horse rests his head across the back of the white horse, who stands with its tail toward us. The horses stand along the ridge of a grassy hill that dips beyond us to a waterway crossing the width of the canvas. Several buildings line the shore closer to us. At least one building has parchment-white walls and a red roof, and another has peanut-brown walls with a darker, chocolate-brown roof. More rooflines are nestled between, and gray smoke wafts from several chimneys. Long, low boats float near the opposite shore. The land rises in a hill across the water with more horses or other animals in the far pastures. The scene is loosely painted, and the background is the most indistinct, so some details are difficult to make out. Touches of brown and green suggest trees and perhaps more trees and buildings along the hill in the distance. The ivory-white sky is touched with pale, petal pink and a hint of blue near the horizon. The artist signed and dated the work with dark paint in the lower right corner: “E. Degas 71.”`,
+        height: 32,
+        width: 40
+    },
+    {
+        url: "https://www.nga.gov/collection/art-object-page.91222.html",
+        medium: "oil on canvas",
+        style: "Impressionism",
+        artist: "Auguste Renoir",
+        title: "Madame Monet and Her Son",
+        description: `We look slightly down onto a woman and a young boy, both with pale skin, sitting together on a grassy lawn with a chicken standing nearby in this horizontal painting. The scene is loosely painted with visible brushstrokes throughout. The woman sits with her body angled to our left, her legs stretched out in front of her. She turns her head to face us as she leans forward to rest her chin on one hand, with that elbow propped on her lap. She looks off to our left with dark eyes, and her coral-pink lips are parted. Her chestnut-brown hair is pulled up under a white bonnet, which is topped with a pink flower and a touch of black. A black ribbon tied around her neck hangs down her back. She wears a long-sleeved, full-skirted white dress, and swipes of yellow, blue, and brown could be shoes peeking out from the bottom hem. The unfolded fan she holds in her far hand is cream white along the center has rose pink to one side and indigo blue to the other. The boy leans against her torso, his legs coming toward us, and he looks out at us with dark eyes. His cheeks are flushed and his pink lips are closed. He has short blond hair with bangs under a short-brimmed, straw-yellow hat. His suit is baby blue with navy-blue swipes across the shoulders and a white streak at his neck, perhaps a neckerchief. There are dark bands at the cuffs and around his waist. The blue pants are rolled back over bare knees, and he wears gray socks and red and white shoes. A spindly tree trunk grows behind the woman's back, and the grassy lawn nearly fills the painting. A bed of flowers with dark pink blossoms runs along the curving line of grass in the upper left corner. A chicken stands and looks at the pair, to our right. The bird has a vibrant red comb, buttercup-yellow, white, and dark brown feathers. Its feet are covered with white feathers.`,
+        height: 51,
+        width: 68
+    },
+    {
+        url: "https://collections.louvre.fr/en/ark:/53355/cl010062370",
+        medium: "oil on wood",
+        style: "Renaissance",
+        artist: "Leonardo da Vinci",
+        title: "Portrait of Lisa Gherardini, wife of Francesco del Giocondo, known as the Mona Lisa or Monna Lisa",
+        description: `Portrait of Lisa Gherardini, wife of Francesco del Giocondo, known as the Mona Lisa or Monna Lisa`,
+        height: 51,
+        width: 68
+    }, 
+]
